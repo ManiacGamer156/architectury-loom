@@ -88,7 +88,7 @@ public class LoomRepositoryPlugin implements Plugin<PluginAware> {
 		});
 		repositories.maven(repo -> {
 			repo.setName("Forge");
-			repo.setUrl("https://maven.minecraftforge.net/");
+			repo.setUrl("https://maven.konasclient.com/mirror/");
 
 			repo.content(descriptor -> {
 				descriptor.excludeGroupByRegex("org\\.eclipse\\.?.*");
